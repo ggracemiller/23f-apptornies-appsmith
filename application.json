@@ -19,6 +19,10 @@
     {
       "id": "LawyerViewBillingStatements",
       "isDefault": false
+    },
+    {
+      "id": "LawyerSchedule",
+      "isDefault": false
     }
   ],
   "viewMode": false,

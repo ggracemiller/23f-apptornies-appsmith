@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "LawyerViewBillingStatements",
-    "slug": "lawyerviewbillingstatements",
+    "name": "LawyerSchedule",
+    "slug": "lawyerschedule",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 958.0000000000001,
+          "bottomRow": 404.00000000000006,
           "containerStyle": "none",
           "snapRows": 55,
           "parentRowSpace": 1,
@@ -31,7 +31,7 @@
             {
               "children": [
                 {
-                  "id": "n8pj8yozzq",
+                  "id": "lo554t0m6r",
                   "align": "start"
                 }
               ]
@@ -39,7 +39,7 @@
             {
               "children": [
                 {
-                  "id": "i4wxh842ey",
+                  "id": "95ais0ucns",
                   "align": "start"
                 }
               ]
@@ -47,23 +47,7 @@
             {
               "children": [
                 {
-                  "id": "jawhkx6yjk",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "8cv720udtp",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "aemeg7q3bz",
+                  "id": "laeu0lfup6",
                   "align": "start"
                 }
               ]
@@ -73,7 +57,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "LawyerViewBillingStatements_Api1",
+              "id": "LawyerSchedule_Api1",
               "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -86,7 +70,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "LawyerViewBillingStatements",
+        "id": "LawyerSchedule",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -97,5 +81,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656cd08059ed322fd2f588fd_656e229f59ed322fd2f58934"
+  "gitSyncId": "656cd08059ed322fd2f588fd_656e284159ed322fd2f5893e"
 }
