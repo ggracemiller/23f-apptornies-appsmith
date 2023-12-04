@@ -27,7 +27,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{Table1.selectedRow}}",
+      "body": "{{\n{\n\t...Table1.selectedRow, \n\tstart_date: new Date(Table1.selectedRow.start_date).getFullYear() + \"-\" + (new Date(Table1.selectedRow.start_date).getMonth()+1) + \"-\" + new Date(Table1.selectedRow.start_date).getDate() + \" \" + new Date(Table1.selectedRow.start_date).getHours() + \":\" + new Date(Table1.selectedRow.start_date).getMinutes() + \":\" + new Date(Table1.selectedRow.start_date).getSeconds(),\n\tclose_date: new Date(Table1.selectedRow.close_date).getFullYear() + \"-\" + (new Date(Table1.selectedRow.close_date).getMonth()+1) + \"-\" + new Date(Table1.selectedRow.close_date).getDate() + \" \" + new Date(Table1.selectedRow.close_date).getHours() + \":\" + new Date(Table1.selectedRow.close_date).getMinutes() + \":\" + new Date(Table1.selectedRow.close_date).getSeconds(),\n}\n}}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -53,7 +53,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Table1.selectedRow",
+      "\n{\n\t...Table1.selectedRow, \n\tstart_date: new Date(Table1.selectedRow.start_date).getFullYear() + \"-\" + (new Date(Table1.selectedRow.start_date).getMonth()+1) + \"-\" + new Date(Table1.selectedRow.start_date).getDate() + \" \" + new Date(Table1.selectedRow.start_date).getHours() + \":\" + new Date(Table1.selectedRow.start_date).getMinutes() + \":\" + new Date(Table1.selectedRow.start_date).getSeconds(),\n\tclose_date: new Date(Table1.selectedRow.close_date).getFullYear() + \"-\" + (new Date(Table1.selectedRow.close_date).getMonth()+1) + \"-\" + new Date(Table1.selectedRow.close_date).getDate() + \" \" + new Date(Table1.selectedRow.close_date).getHours() + \":\" + new Date(Table1.selectedRow.close_date).getMinutes() + \":\" + new Date(Table1.selectedRow.close_date).getSeconds(),\n}\n",
       "Table1.selectedRow.case_file_id"
     ],
     "userSetOnLoad": false,
