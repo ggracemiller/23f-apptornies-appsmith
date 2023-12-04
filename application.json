@@ -3,6 +3,18 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "ChoosePersona",
+      "isDefault": false
+    },
+    {
+      "id": "LawyerChooseName",
+      "isDefault": false
+    },
+    {
+      "id": "LawyerViewCaseFiles",
+      "isDefault": false
     }
   ],
   "viewMode": false,
