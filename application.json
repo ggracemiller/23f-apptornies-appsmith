@@ -15,6 +15,10 @@
     {
       "id": "LawyerViewCaseFiles",
       "isDefault": false
+    },
+    {
+      "id": "LawyerViewBillingStatements",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -22,7 +26,7 @@
   "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "appPositioning": {
-      "type": "FIXED"
+      "type": "AUTO"
     }
   },
   "color": "#F3F1C7",

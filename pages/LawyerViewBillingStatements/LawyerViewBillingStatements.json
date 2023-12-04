@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "LawyerChooseName",
-    "slug": "lawyerchoosename",
+    "name": "LawyerViewBillingStatements",
+    "slug": "lawyerviewbillingstatements",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 570,
+          "bottomRow": 826.0000000000001,
           "containerStyle": "none",
           "snapRows": 55,
           "parentRowSpace": 1,
@@ -31,7 +31,7 @@
             {
               "children": [
                 {
-                  "id": "x9gr098cfo",
+                  "id": "i4wxh842ey",
                   "align": "start"
                 }
               ]
@@ -39,8 +39,24 @@
             {
               "children": [
                 {
-                  "id": "v5xmowcfup",
-                  "align": "center"
+                  "id": "jawhkx6yjk",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "8cv720udtp",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "aemeg7q3bz",
+                  "align": "start"
                 }
               ]
             }
@@ -49,18 +65,20 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "LawyerChooseName_get_all_employees",
-              "name": "get_all_employees",
+              "id": "LawyerViewBillingStatements_Api1",
+              "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.employee_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "LawyerChooseName",
+        "id": "LawyerViewBillingStatements",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -71,5 +89,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656cd08059ed322fd2f588fd_656e070f59ed322fd2f5890e"
+  "gitSyncId": "656cd08059ed322fd2f588fd_656e229f59ed322fd2f58934"
 }
