@@ -3,6 +3,10 @@
     {
       "id": "Client_Information",
       "isDefault": true
+    },
+    {
+      "id": "Client_Firm_Attorneys",
+      "isDefault": false
     }
   ],
   "viewMode": false,
