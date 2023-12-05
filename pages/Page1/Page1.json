@@ -7,29 +7,32 @@
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
+          "topRow": 0,
+          "bottomRow": 1292,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "minHeight": 1292,
+          "useAutoLayout": true,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 4896,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 124,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
+          "responsiveBehavior": "fill",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "65y2190w4p",
+                  "id": "zeeuuabrof",
                   "align": "start"
                 }
               ]
@@ -46,8 +49,7 @@
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": false
+    "policies": []
   },
   "deleted": false,
   "gitSyncId": "656ccc90d506d71dd7f646a6_656ccc90d506d71dd7f646a8"
