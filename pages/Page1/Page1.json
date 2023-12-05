@@ -7,6 +7,8 @@
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
+          "useAutoLayout": true,
+          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 4896,
           "snapColumns": 64,
@@ -24,7 +26,9 @@
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
-          "leftColumn": 0
+          "leftColumn": 0,
+          "responsiveBehavior": "fill",
+          "flexLayers": []
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
