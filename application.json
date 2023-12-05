@@ -15,6 +15,10 @@
     {
       "id": "Client_Events",
       "isDefault": false
+    },
+    {
+      "id": "Client_Case_Files",
+      "isDefault": false
     }
   ],
   "viewMode": false,
