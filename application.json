@@ -3,6 +3,26 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Full access to firm",
+      "isDefault": false
+    },
+    {
+      "id": "Manage clients",
+      "isDefault": false
+    },
+    {
+      "id": "Modify hourly rates ",
+      "isDefault": false
+    },
+    {
+      "id": "Billing statements",
+      "isDefault": false
+    },
+    {
+      "id": "Modify access rights",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,6 +35,9 @@
   },
   "color": "#F3F1C7",
   "icon": "smartphone",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
