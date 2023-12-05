@@ -43,6 +43,26 @@
     {
       "id": "LawyerSchedule",
       "isDefault": false
+    },
+    {
+      "id": "Full access to firm",
+      "isDefault": false
+    },
+    {
+      "id": "Manage clients",
+      "isDefault": false
+    },
+    {
+      "id": "Modify hourly rates ",
+      "isDefault": false
+    },
+    {
+      "id": "Billing statements",
+      "isDefault": false
+    },
+    {
+      "id": "Modify access rights",
+      "isDefault": false
     }
   ],
   "viewMode": false,
