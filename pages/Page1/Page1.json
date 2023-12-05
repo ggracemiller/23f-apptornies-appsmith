@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page 1",
-    "slug": "page-1",
+    "name": "Page1",
+    "slug": "page1",
     "layouts": [
       {
         "viewMode": false,
@@ -39,7 +39,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page 1",
+        "id": "Page1",
         "deleted": false,
         "policies": [],
         "userPermissions": []

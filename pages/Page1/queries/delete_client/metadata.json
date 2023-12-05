@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page 1",
+    "pageId": "Page1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -61,7 +61,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-05T03:20:22Z"
   },
-  "id": "Page 1_delete_client",
+  "id": "Page1_delete_client",
   "deleted": false,
   "gitSyncId": "656e912da17e695e8c0e61ab_656e96f6a17e695e8c0e61b4"
 }
