@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Client_Information",
+    "pageId": "Page 1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,7 +37,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -55,7 +55,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-05T02:58:25Z"
   },
-  "id": "Client_Information_Client_Names",
+  "id": "Page 1_Client_Names",
   "deleted": false,
-  "gitSyncId": "656e912da17e695e8c0e61ab_656f740f682fae1dab20a5fd"
+  "gitSyncId": "656e912da17e695e8c0e61ab_656e91d1a17e695e8c0e61ae"
 }

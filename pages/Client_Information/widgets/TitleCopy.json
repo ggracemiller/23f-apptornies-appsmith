@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 6,
-    "widgetName": "Title",
+    "widgetName": "TitleCopy",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -33,7 +33,7 @@
     "rightColumn": 18,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "zeeuuabrof",
+    "widgetId": "tusqazjwod",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",

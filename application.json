@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Client_Information",
+      "id": "Page 1",
       "isDefault": true
     },
     {
@@ -18,6 +18,10 @@
     },
     {
       "id": "Client_Case_Files",
+      "isDefault": false
+    },
+    {
+      "id": "Client_Information",
       "isDefault": false
     }
   ],

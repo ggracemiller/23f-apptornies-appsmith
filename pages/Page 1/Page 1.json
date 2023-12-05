@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Client_Information",
-    "slug": "client-information",
+    "name": "Page 1",
+    "slug": "page-1",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1330,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -26,23 +26,10 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Client_Information_Client_Names",
-              "name": "Client_Names",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "client_id_input.text"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Client_Information",
+        "id": "Page 1",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -53,5 +40,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e912da17e695e8c0e61ab_656f740e682fae1dab20a5f9"
+  "gitSyncId": "656ccc90d506d71dd7f646a6_656ccc90d506d71dd7f646a8"
 }
