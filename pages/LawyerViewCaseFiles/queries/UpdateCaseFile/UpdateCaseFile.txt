@@ -1,7 +1,0 @@
-{{
-{
-	...Table1.selectedRow, 
-	start_date: new Date(Table1.selectedRow.start_date).getFullYear() + "-" + (new Date(Table1.selectedRow.start_date).getMonth()+1) + "-" + new Date(Table1.selectedRow.start_date).getDate() + " " + new Date(Table1.selectedRow.start_date).getHours() + ":" + new Date(Table1.selectedRow.start_date).getMinutes() + ":" + new Date(Table1.selectedRow.start_date).getSeconds(),
-	close_date: new Date(Table1.selectedRow.close_date).getFullYear() + "-" + (new Date(Table1.selectedRow.close_date).getMonth()+1) + "-" + new Date(Table1.selectedRow.close_date).getDate() + " " + new Date(Table1.selectedRow.close_date).getHours() + ":" + new Date(Table1.selectedRow.close_date).getMinutes() + ":" + new Date(Table1.selectedRow.close_date).getSeconds(),
-}
-}}
