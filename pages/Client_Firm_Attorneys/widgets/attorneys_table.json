@@ -61,7 +61,7 @@
     "columnUpdatedAt": 1701746932816,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 39,
-    "widgetName": "Table1",
+    "widgetName": "attorneys_table",
     "defaultPageSize": 0,
     "columnOrder": [
         "name",
@@ -81,7 +81,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "hourly_rate": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( '$' + currentRow[\"hourly_rate\"]))}}",
+            "computedValue": "{{attorneys_table.processedTableData.map((currentRow, currentIndex) => ( '$' + currentRow[\"hourly_rate\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "hourly_rate",
@@ -112,7 +112,7 @@
             "verticalAlignment": "CENTER"
         },
         "name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+            "computedValue": "{{attorneys_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "name",
@@ -143,7 +143,7 @@
             "verticalAlignment": "CENTER"
         },
         "phone_number": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phone_number\"]))}}",
+            "computedValue": "{{attorneys_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phone_number\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "phone_number",
@@ -174,7 +174,7 @@
             "verticalAlignment": "CENTER"
         },
         "email": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
+            "computedValue": "{{attorneys_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "email",

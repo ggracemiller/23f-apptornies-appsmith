@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Client_Information",
-    "slug": "client-information",
+    "name": "Client_Billing_Statement",
+    "slug": "client-billing-statement",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1330,
+          "bottomRow": 490,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 63,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 650,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Client_Information_Client_Names",
-              "name": "Client_Names",
+              "id": "Client_Billing_Statement_get_client_bs",
+              "name": "get_client_bs",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -42,7 +41,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Client_Information",
+        "id": "Client_Billing_Statement",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -53,5 +52,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656ccc90d506d71dd7f646a6_656ccc90d506d71dd7f646a8"
+  "gitSyncId": "656e912da17e695e8c0e61ab_656e99fba17e695e8c0e61c5"
 }

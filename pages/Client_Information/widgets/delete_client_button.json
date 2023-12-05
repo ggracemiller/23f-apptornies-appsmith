@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "mobileBottomRow": 54,
-    "widgetName": "Button1",
+    "widgetName": "delete_client_button",
     "onClick": "{{delete_client.run().then(() => {\n  showAlert('Successfully Deleted', 'success');\n}).catch(() => {\n  showAlert('Delete Failed', 'error');\n});}}",
     "buttonColor": "#b91c1c",
     "displayName": "Button",

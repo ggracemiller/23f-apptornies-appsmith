@@ -378,7 +378,7 @@
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
-    "sourceData": "{{Table1.selectedRow}}",
+    "sourceData": "{{client_information_table.selectedRow}}",
     "resetButtonLabel": "Reset",
     "key": "1ez4d6or2f",
     "backgroundColor": "#fff",

@@ -66,7 +66,7 @@
     "columnUpdatedAt": 1701745258093,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 48,
-    "widgetName": "Table1",
+    "widgetName": "client_information_table",
     "defaultPageSize": 0,
     "columnOrder": [
         "first_name",
@@ -91,7 +91,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "zip": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"zip\"]))}}",
+            "computedValue": "{{client_information_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"zip\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "zip",
@@ -122,7 +122,7 @@
             "verticalAlignment": "CENTER"
         },
         "city": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"city\"]))}}",
+            "computedValue": "{{client_information_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"city\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "city",
@@ -153,7 +153,7 @@
             "verticalAlignment": "CENTER"
         },
         "street": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"street\"]))}}",
+            "computedValue": "{{client_information_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"street\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "street",
@@ -184,7 +184,7 @@
             "verticalAlignment": "CENTER"
         },
         "last_name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_name\"]))}}",
+            "computedValue": "{{client_information_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "last_name",
@@ -215,7 +215,7 @@
             "verticalAlignment": "CENTER"
         },
         "phone_number": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phone_number\"]))}}",
+            "computedValue": "{{client_information_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phone_number\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "phone_number",
@@ -246,7 +246,7 @@
             "verticalAlignment": "CENTER"
         },
         "state": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"state\"]))}}",
+            "computedValue": "{{client_information_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"state\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "state",
@@ -277,7 +277,7 @@
             "verticalAlignment": "CENTER"
         },
         "first_name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"first_name\"]))}}",
+            "computedValue": "{{client_information_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"first_name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "first_name",
@@ -308,7 +308,7 @@
             "verticalAlignment": "CENTER"
         },
         "client_id": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"client_id\"]))}}",
+            "computedValue": "{{client_information_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"client_id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "client_id",
@@ -339,7 +339,7 @@
             "verticalAlignment": "CENTER"
         },
         "email": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
+            "computedValue": "{{client_information_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "email",

@@ -27,7 +27,7 @@
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileBottomRow": 20,
-    "widgetName": "Input1",
+    "widgetName": "client_id_input",
     "displayName": "Input",
     "searchTags": [
         "form",
@@ -58,6 +58,6 @@
     "mobileLeftColumn": 12,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "1",
     "minDynamicHeight": 4
 }
