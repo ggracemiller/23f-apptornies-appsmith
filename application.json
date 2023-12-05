@@ -11,6 +11,10 @@
     {
       "id": "Client_Billing_Statement",
       "isDefault": false
+    },
+    {
+      "id": "Client_Events",
+      "isDefault": false
     }
   ],
   "viewMode": false,
