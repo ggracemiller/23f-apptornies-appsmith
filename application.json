@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Page1",
-      "isDefault": true
-    },
-    {
       "id": "Client_Firm_Attorneys",
       "isDefault": false
     },
@@ -26,7 +22,7 @@
     },
     {
       "id": "ChoosePersona",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "LawyerChooseName",
