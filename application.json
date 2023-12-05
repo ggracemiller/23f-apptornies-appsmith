@@ -23,6 +23,26 @@
     {
       "id": "Client_Information",
       "isDefault": false
+    },
+    {
+      "id": "ChoosePersona",
+      "isDefault": false
+    },
+    {
+      "id": "LawyerChooseName",
+      "isDefault": false
+    },
+    {
+      "id": "LawyerViewCaseFiles",
+      "isDefault": false
+    },
+    {
+      "id": "LawyerViewBillingStatements",
+      "isDefault": false
+    },
+    {
+      "id": "LawyerSchedule",
+      "isDefault": false
     }
   ],
   "viewMode": false,
