@@ -22,25 +22,6 @@
     },
     {
       "id": "Client_Information",
-    },
-    {
-      "id": "ChoosePersona",
-      "isDefault": false
-    },
-    {
-      "id": "LawyerChooseName",
-      "isDefault": false
-    },
-    {
-      "id": "LawyerViewCaseFiles",
-      "isDefault": false
-    },
-    {
-      "id": "LawyerViewBillingStatements",
-      "isDefault": false
-    },
-    {
-      "id": "LawyerSchedule",
       "isDefault": false
     }
   ],
@@ -49,7 +30,7 @@
   "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "appPositioning": {
-      "type": "AUTO"
+      "type": "FIXED"
     }
   },
   "color": "#F3F1C7",
