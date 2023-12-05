@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 6,
-    "widgetName": "Text1",
+    "widgetName": "TitleCopy",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 0,
-    "bottomRow": 4,
+    "topRow": 4,
+    "bottomRow": 8,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -18,23 +18,22 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 10.96875,
-    "leftColumn": 0,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello {{appsmith.user.name || appsmith.user.email}}",
+    "text": "My Information",
     "key": "45hwpxy735",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 18,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "65y2190w4p",
+    "widgetId": "tusqazjwod",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
@@ -53,6 +52,5 @@
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
     "fontSize": "1rem",
-    "alignment": "start",
     "minDynamicHeight": 4
 }

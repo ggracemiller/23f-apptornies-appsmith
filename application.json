@@ -5,6 +5,25 @@
       "isDefault": true
     },
     {
+      "id": "Client_Firm_Attorneys",
+      "isDefault": false
+    },
+    {
+      "id": "Client_Billing_Statement",
+      "isDefault": false
+    },
+    {
+      "id": "Client_Events",
+      "isDefault": false
+    },
+    {
+      "id": "Client_Case_Files",
+      "isDefault": false
+    },
+    {
+      "id": "Client_Information",
+    },
+    {
       "id": "ChoosePersona",
       "isDefault": false
     },
