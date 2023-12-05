@@ -49,7 +49,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "LawyerChooseName_get_all_employees",
               "name": "get_all_employees",
               "confirmBeforeExecute": false,
               "pluginType": "API",
