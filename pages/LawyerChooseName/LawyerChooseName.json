@@ -46,17 +46,7 @@
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "name": "get_all_employees",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "LawyerChooseName",
