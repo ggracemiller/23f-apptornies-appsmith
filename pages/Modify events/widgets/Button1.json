@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 65,
     "widgetName": "Button1",
-    "onClick": "{{Delete_events.run();\nEvents.run()}}",
+    "onClick": "{{Delete_events.run().then(() => {\n  showAlert('Successful Delete', 'success');\n});\nEvents.run();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
