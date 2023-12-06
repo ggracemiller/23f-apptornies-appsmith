@@ -42,7 +42,8 @@
         {"key": "schema.__root_schema__.children.street.borderRadius"},
         {"key": "schema.__root_schema__.children.zip.defaultValue"},
         {"key": "schema.__root_schema__.children.zip.accentColor"},
-        {"key": "schema.__root_schema__.children.zip.borderRadius"}
+        {"key": "schema.__root_schema__.children.zip.borderRadius"},
+        {"key": "isVisible"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -54,7 +55,7 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "SECONDARY"
     },
-    "isVisible": true,
+    "isVisible": "{{client_id_input.text !== \"\"}}",
     "version": 1,
     "tags": [
         "Suggested",
@@ -367,12 +368,15 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
+    "dynamicPropertyPathList": [
+        {"key": "sourceData"},
+        {"key": "isVisible"}
+    ],
     "displayName": "JSON Form",
     "bottomRow": 133,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Form",
+    "title": "Update Information",
     "hideCard": false,
     "mobileRightColumn": 29,
     "parentColumnSpace": 11.796875,

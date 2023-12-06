@@ -21,7 +21,8 @@
         {"key": "primaryColumns.phone_number.computedValue"},
         {"key": "primaryColumns.state.computedValue"},
         {"key": "primaryColumns.street.computedValue"},
-        {"key": "primaryColumns.zip.computedValue"}
+        {"key": "primaryColumns.zip.computedValue"},
+        {"key": "isVisible"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 3,
@@ -30,7 +31,7 @@
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
-    "isVisible": true,
+    "isVisible": "{{client_id_input.text !== \"\"}}",
     "enableClientSideSearch": true,
     "version": 2,
     "totalRecordsCount": 0,
@@ -80,7 +81,7 @@
         "state",
         "zip"
     ],
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Table",
     "bottomRow": 45,
     "columnWidthMap": {},

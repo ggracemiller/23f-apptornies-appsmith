@@ -13,11 +13,12 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "tableData"},
-        {"key": "primaryColumns.client_id.computedValue"},
         {"key": "primaryColumns.date_time.computedValue"},
         {"key": "primaryColumns.description.computedValue"},
         {"key": "primaryColumns.event_id.computedValue"},
-        {"key": "primaryColumns.location.computedValue"}
+        {"key": "primaryColumns.location.computedValue"},
+        {"key": "isVisible"},
+        {"key": "primaryColumns.client_id.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 4,
@@ -27,7 +28,7 @@
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
-    "isVisible": true,
+    "isVisible": "{{client_id_input.text !== \"\"}}",
     "enableClientSideSearch": true,
     "version": 2,
     "totalRecordsCount": 0,
@@ -60,20 +61,20 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701748255096,
+    "columnUpdatedAt": 1701826948362,
     "originalBottomRow": 49,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 49,
     "widgetName": "events_table",
     "defaultPageSize": 0,
     "columnOrder": [
-        "client_id",
         "date_time",
         "description",
         "event_id",
-        "location"
+        "location",
+        "client_id"
     ],
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Table",
     "bottomRow": 49,
     "columnWidthMap": {},
@@ -225,8 +226,10 @@
             "allowCellWrapping": false,
             "index": 0,
             "isDiscardVisible": true,
-            "isVisible": false,
+            "isVisible": true,
             "label": "client_id",
+            "fontStyle": "",
+            "textColor": "",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -237,6 +240,7 @@
             "sticky": "",
             "originalId": "client_id",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         }
     },
