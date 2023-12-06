@@ -23,11 +23,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "textColor"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Welcome to Apptornies",
+    "text": "Welcome to LHUB",
     "key": "shl8ewm7fz",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
@@ -38,7 +39,7 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#231F20",
+    "textColor": "{{appsmith.theme.colors.primaryColor}}",
     "version": 1,
     "parentId": "0",
     "tags": [
