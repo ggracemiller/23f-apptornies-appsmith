@@ -59,6 +59,10 @@
     {
       "id": "Modify access rights",
       "isDefault": false
+    },
+    {
+      "id": "Modify events",
+      "isDefault": false
     }
   ],
   "viewMode": false,
