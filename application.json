@@ -1,8 +1,60 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Client_Firm_Attorneys",
+      "isDefault": false
+    },
+    {
+      "id": "Client_Billing_Statement",
+      "isDefault": false
+    },
+    {
+      "id": "Client_Events",
+      "isDefault": false
+    },
+    {
+      "id": "Client_Case_Files",
+      "isDefault": false
+    },
+    {
+      "id": "Client_Information",
+      "isDefault": false
+    },
+    {
+      "id": "ChoosePersona",
       "isDefault": true
+    },
+    {
+      "id": "LawyerChooseName",
+      "isDefault": false
+    },
+    {
+      "id": "LawyerViewCaseFiles",
+      "isDefault": false
+    },
+    {
+      "id": "LawyerViewBillingStatements",
+      "isDefault": false
+    },
+    {
+      "id": "LawyerSchedule",
+      "isDefault": false
+    },
+    {
+      "id": "Full access to firm",
+      "isDefault": false
+    },
+    {
+      "id": "Manage clients",
+      "isDefault": false
+    },
+    {
+      "id": "Billing statements",
+      "isDefault": false
+    },
+    {
+      "id": "Modify events",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -11,6 +63,17 @@
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
+    },
+    "navigationSetting": {
+      "showNavbar": false,
+      "orientation": "top",
+      "navStyle": "stacked",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": true
     }
   },
   "color": "#F3F1C7",

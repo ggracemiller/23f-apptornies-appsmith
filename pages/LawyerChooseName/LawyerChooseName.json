@@ -1,0 +1,83 @@
+{
+  "unpublishedPage": {
+    "name": "LawyerChooseName",
+    "slug": "lawyerchoosename",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 380,
+          "containerStyle": "none",
+          "snapRows": 55,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 87,
+          "minHeight": 570,
+          "useAutoLayout": true,
+          "parentColumnSpace": 1,
+          "responsiveBehavior": "fill",
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "vertical",
+          "flexLayers": [
+            {
+              "children": [
+                {
+                  "id": "x9gr098cfo",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "v5xmowcfup",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "5y4ihows9q",
+                  "align": "center"
+                }
+              ]
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "LawyerChooseName_get_all_employees",
+              "name": "get_all_employees",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "LawyerChooseName",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "656cd08059ed322fd2f588fd_656e070f59ed322fd2f5890e"
+}
