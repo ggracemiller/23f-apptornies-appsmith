@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "View all billing statements for {{appsmith.store.employee_name}}",
+    "text": "View all Billing Statements for {{appsmith.store.employee_name}}",
     "key": "tqk5jpxb93",
     "isDeprecated": false,
     "rightColumn": 64,
