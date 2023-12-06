@@ -61,6 +61,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701748255096,
+    "originalBottomRow": 49,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 49,
     "widgetName": "events_table",
@@ -255,6 +256,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 21,
     "mobileLeftColumn": 4,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
