@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 570,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 55,
           "parentRowSpace": 1,
@@ -43,10 +43,29 @@
                   "align": "center"
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "id": "5y4ihows9q",
+                  "align": "center"
+                }
+              ]
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "LawyerChooseName_get_all_employees",
+              "name": "get_all_employees",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "LawyerChooseName",
